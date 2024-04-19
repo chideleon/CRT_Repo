@@ -3,6 +3,7 @@ Resource                        ../Resources/common.robot
 Suite Setup                     Setup Browser
 Suite Teardown                  End suite
 
+#Editing in CRT
 
 *** Test Cases ***
 Create Account Growmore
@@ -14,7 +15,7 @@ Create Account Growmore
     UseModal                    On
     Sleep                       1 sec
 
-    Wait Until Keyword Succeeds                             1 min                   5 sec       TypeText        Account Name    Growmore
+    Wait Until Keyword Succeeds                             1 min                  5 sec       TypeText        Account Name    Growmore
     PickList                    Type                        Competitor
     ClickText                   Website
     TypeText                    Website                     www.growmore.org
