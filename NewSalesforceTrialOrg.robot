@@ -33,6 +33,6 @@ Creating Trial Org
 
     TypeText                Phone                       9999999999
     TypeText                Email                       ${email}
-    ClickElement           //div[@class\="checkbox-ui"]                   
+    ClickElement            //div[@class\="checkbox-ui"]
 
     ClickText               Submit
